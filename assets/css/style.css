@@ -17,9 +17,21 @@ h1 {
 .menu {
     list-style-type: none;
     float: right;
+    
 }
 
 li {
     display: inline;
+    
 }
 
+#index, #portfolio {
+    border-right: 1px solid #cccccc;
+    margin-left: 2px;
+    padding: 5px;
+}
+
+a:link {
+    text-decoration: none;
+    text-align: center;
+}
