@@ -61,15 +61,14 @@ footer {
 }
 
 #about {
-    border: solid 3px #dddddd;
+    border: solid 1px #dddddd;
     margin-top: 100px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #777777;
     background: #ffffff;
     margin-right: 200px;
     margin-left: 200px;
-    clear: both;
-    overflow: auto;
+    overflow: hidden;
 
 }
 
@@ -79,23 +78,21 @@ h2 {
     color: #4aaaa5;
 }
 
-hr / {
-    border-color: #777777;
-
+hr {
+    border-top: 2px solid #dddddd;
+    margin: 20px
 }
 
 p {
-    float: right;
-    width: 80%;
-    padding: 20px;
     line-height: 2;
+    padding: 20px;
 
 }
 
 img {
     float: left;
     width: 200px;
-    position: absolute;
+    margin: 20px;
 
 }
 
