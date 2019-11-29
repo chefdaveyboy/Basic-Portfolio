@@ -66,6 +66,15 @@ hr {
     margin: 20px
 }
 
+.gallery-tag {
+    position: absolute;
+    background: #4aaaa5;
+    color: #ffffff;
+    bottom: 0;
+    z-index: 10;
+
+}
+
 
 
 .profile-image {
@@ -102,6 +111,10 @@ hr {
     padding: 10px 20px;
 }
 
+.text-area {
+    width: 900px;
+}
+
 #gallery-div {
     margin: auto;
 }
@@ -113,6 +126,7 @@ hr {
 
 #inner-form {
     margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 20px;
     line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
@@ -124,9 +138,10 @@ hr {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #777777;
     background: #ffffff;
-    margin-right: 200px;
-    margin-left: 200px;
+    width: 960px;
     overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #index, #portfolio {
